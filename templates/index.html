@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebook Formatter</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Ebook Formatter</h1>
+        <h2>Apply custom formatting to your ebooks</h2>
+    </header>
+    <div class="container">
+        <div class="file-upload" id="c1">
+            <p>Please attach your book:</p>
+            <input type="file" id="file-input">
+        </div>
+        <div class="file-info" id="c3">
+            <p id="file-name">No file selected.</p>
+        </div>
+        <button id="upload-button" disabled>Upload</button>
+    </div>
+    <div class="container result" id="c2" style="display: none;">
+        <p>Your formatted ebook:</p>
+        <a href="#" id="download-link">Download</a>
+    </div>
+        <script src="static/js/scripts.js"></script>
+</body>
+</html>
