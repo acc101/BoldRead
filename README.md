@@ -1,24 +1,20 @@
 # BoldRead
 
-BoldRead is a web application designed to enhance your reading experience. It processes your ebooks and applies a unique formatting: it boldens the first two letters of each word that is longer than three characters. This formatting is designed to make reading faster, easier, and more retentive.
+BoldRead is a web application designed to enhance your reading experience. It processes your ebooks and applies a unique formatting: the first two letters of each word longer than three characters are bolded. This formatting approach is designed to facilitate faster, easier, and more retentive reading.
 
-Features
+## Features
 
-Upload your ebook in EPUB or PDF format
-Download the processed ebook with the unique formatting applied
-Simple and user-friendly interface
-How to Use
+- Upload your ebook in EPUB or PDF format.
+- The application processes your ebook and applies the unique formatting.
+- Download your newly formatted ebook for a better reading experience.
 
-Visit the BoldRead web application.
-Click on the file upload button and select your ebook file. The file must be in either EPUB or PDF format.
-Click on the 'Upload' button to submit your file.
-Wait for the processing to complete. Once done, a download link will appear.
-Click on the 'Download' link to download your processed ebook.
-Future Improvements
+## How to Use
 
-Support for more ebook formats
-Customizable formatting options
-Progress indicator during file processing
-Feedback
+1. Visit the BoldRead web application.
+2. Click on the file upload button and select your ebook file.
+3. Click on the 'Upload' button to submit your ebook for processing.
+4. Once processing is complete, a 'Download' link will appear. Click on this link to download your formatted ebook.
 
-If you have any feedback or suggestions, feel free to open an issue on this repository. We appreciate your contributions to improving BoldRead.
+## Development
+
+BoldRead is built with Flask, a Python web framework, and uses JavaScript for client-side scripting. The application's styles are written in CSS.
